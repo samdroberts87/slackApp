@@ -4,6 +4,8 @@ from slack_sdk import WebClient
 from slack_sdk.errors import SlackApiError
 from datetime import datetime
 
+# this script works once slack bot has been created, relevant permissions have been set & token has been generated
+
 # ensure slack bot token is set as environment variable
 slack_token = os.getenv('SLACK_BOT_TOKEN')
 if not slack_token:
